@@ -35,6 +35,7 @@ React + FastAPI fullstack web application.
 ### 1. Python Virtual Environment
 
 ```bash
+cd backend
 # Create virtual environment with uv
 uv venv
 
@@ -47,7 +48,8 @@ source .venv/bin/activate  # macOS/Linux
 ### 2. Install Python Dependencies
 
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
+cd ..
 ```
 
 ### 3. Install Frontend Dependencies
